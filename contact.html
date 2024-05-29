@@ -10,14 +10,12 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
     />
     <style>
-      /* Reset default styles */
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
 
-      /* Global styles */
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.6;
@@ -25,7 +23,6 @@
         background-color: #272727;
       }
 
-      /* Header styles */
       header {
         background-color: #272727;
         padding: 1rem;
@@ -54,7 +51,6 @@
         color: #c2c2c2;
       }
 
-      /* Contact section styles */
       .contact {
         padding: 2rem;
         text-align: center;
@@ -112,7 +108,6 @@
         width: 100%;
       }
 
-      /* Footer styles */
       footer {
         background-color: #272727;
         color: #ffffff;
@@ -122,6 +117,22 @@
 
       input {
         background-color: #554a4a;
+      }
+
+      @media (max-width: 768px) {
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        nav ul li {
+          margin-left: 0;
+          margin-bottom: 1rem;
+        }
+
+        .contact-form {
+          padding: 1rem;
+        }
       }
     </style>
   </head>
@@ -145,7 +156,7 @@
         </p>
         <form
           class="contact-form"
-          action="mailto:your-email@example.com"
+          action="mailto:thianesh2003@gmail.com"
           method="post"
           enctype="text/plain"
         >
