@@ -40,15 +40,15 @@ section{
 }
 
 /* Navbar */
-.navbar{
+.navbar {
     background-color: var(--dark2);
 }
 
-.navbar-nav .nav-link.active{
+.navbar-nav .nav-link.active {
     color: var(--primary);
 }
 
-.navbar .nav-link{
+.navbar .nav-link {
     font-size: 13px;
 }
 
